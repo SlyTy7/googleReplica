@@ -80,6 +80,7 @@ div.search img {
 
 div.search input {
 	width: 80%;
+	max-width: 600px;
 	margin: 0px auto;
 	display: block;
 	border: 1px solid #d9d9d9;
@@ -154,4 +155,12 @@ div.links {
 
 .links a:hover {
 	text-decoration: underline;
+}/*END FOOTER*/
+
+
+
+@media (max-width: 550px){
+	ul.nav li:nth-child(3n+0), ul.nav li:nth-child(3n+2) {
+		display: none;
+	}
 }
